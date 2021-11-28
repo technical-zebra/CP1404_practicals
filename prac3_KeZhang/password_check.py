@@ -1,5 +1,5 @@
 """
-CP1404
+CP1404 Practices
 Ke Zhang
 password_check: a program that asks the user for a password and prints asterisks based on its length.
 """
