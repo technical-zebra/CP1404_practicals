@@ -3,11 +3,12 @@ CP1404 Practices
 Ke Zhang
 broken score: a program that take a score and prints the grade of the score.
 """
+import random
 
 
 def main():
     """Program start."""
-    score = float(input("Enter score: "))
+    score = random.randint(0, 100)
     print(determine_grade(score))
 
 
