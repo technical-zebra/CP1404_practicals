@@ -21,6 +21,7 @@ def main():
 
 
 def print_formatted_states(code_to_name):
+    """Print name and code of state in format."""
     for code, name in code_to_name.items():
         print(f'{code:3} is {name}')
 

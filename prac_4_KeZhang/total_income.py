@@ -20,6 +20,7 @@ def main():
 def print_report(incomes):
     print("\nIncome Report\n-------------")
     total = 0
+    print(incomes)
     for month, income in enumerate(incomes, 1):
         income = incomes[month - 1]
         total += income

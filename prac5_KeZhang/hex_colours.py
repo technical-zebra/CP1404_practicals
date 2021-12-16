@@ -22,6 +22,7 @@ def main():
 
 
 def print_formatted_colour_codes(code_to_name):
+    """Print name and code of colour in format."""
     for name, code in code_to_name.items():
         print(f'{name} is {code}')
 
