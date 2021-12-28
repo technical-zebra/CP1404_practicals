@@ -20,4 +20,5 @@ class ProgrammingLanguage:
             return False
 
     def __str__(self):
+        """Display information about this ProgrammingLanguage object."""
         return f'{self.name}, {self.typing} Typing, Reflection={self.reflection}, First appeared in {self.year}'
