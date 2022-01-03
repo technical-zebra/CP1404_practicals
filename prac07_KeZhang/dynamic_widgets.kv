@@ -1,0 +1,18 @@
+BoxLayout:
+    id: main
+    orientation: 'vertical'
+    BoxLayout:
+        orientation: 'vertical'
+        id: animals_layout
+    Label:
+        size_hint_y: 0.3
+        text: app.output_text
+    BoxLayout:
+        orientation: 'horizontal'
+        id: controls_layout
+        Button:
+            text: "Add Animals"
+        Button:
+            text: "Delete Animals"
+        Button:
+            text: "Reset Animals"
